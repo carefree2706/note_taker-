@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname,"public" )));
 
 //require routes file 
-require('./route')(app);
+require('../note_taker-/route')(app);
 
 //setup listener
 app.listen(PORT, function () {
