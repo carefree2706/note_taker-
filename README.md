@@ -18,7 +18,7 @@
 
 ## Installation Instructions
 * [Node.js](https://nodejs.org/en/)
-* You'll requir to install install npm init and npm install via your terminal to install all the dependencies. Utilising your CLI to run the application by Node server.js and then open http://localhost:1000 in your default browser.
+* You'll requir to install install npm init and npm install via your terminal to install all the dependencies. Utilising your CLI to run the application by Node server.js and then open http://localhost:2000 in your default browser.
 
 
 
@@ -53,6 +53,3 @@
 * It's an open-source and cross-platform JavaScript runtime environment. App is run in a single process, without creating a new thread for every request and      provides a set of asynchronous I/O primitives in its standard library that prevent JavaScript code from blocking.
 
 
-## Video
-
-* The shortclip shows the user input and readme created (https://drive.google.com/file/d/1-pEEdoazRZddp4tXyUduRkr2lfy9PELG/view?usp=sharing)
