@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { v4: uuidv4 } = require('uuid');
 let notes;
 
  function updateDB() {
@@ -32,7 +33,9 @@ module.exports = (app) => {
     //setup the api/notes post route
     app.post("/api/notes", function (req, res) {
       //receive notes/data, adds into the db.json, then return the new note
+
       let newNote = req.body;
+      newNote.id = uuidv4();
       notes.push(newNote);
       updateDB();
       return console.log("added new note: " + newNote.title);
