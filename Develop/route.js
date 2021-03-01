@@ -7,8 +7,10 @@ module.exports = app => {
     if (err) throw err;
 
     const notes = JSON.parse(data);
-
+  
     // API ROUTES
+
+  
 
     //setup the api/notes get route
     app.get("/api/notes", function (req, res) {
@@ -33,6 +35,7 @@ module.exports = app => {
       notes.splice(req.params.id, 1);
       updateDb();
       console.log("Deleted note with id " + req.params.id);
+      res.end()
     });
 
     //view routes
