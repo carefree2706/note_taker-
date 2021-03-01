@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 1000;
 //setup data parsing
 app.use (express.urlencoded({ extended: true}));
 app.use (express.json());
-app.use (express.static(__dirname));
+app.use (express.static(path.join(__dirname,"Develop/public" )));
 
 //require routes file 
 require('./route')(app);
