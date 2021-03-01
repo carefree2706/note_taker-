@@ -18,7 +18,7 @@
 
 ## Installation Instructions
 * [Node.js](https://nodejs.org/en/)
-* You'll requir to install install npm init and npm install via your terminal to install all the dependencies. Utilising your CLI to run the application by Node server.js and then open http://localhost:1000 in your default browser.
+* You'll requir to install install npm init and npm install via your terminal to install all the dependencies. Utilising your CLI to run the application by Node server.js and then open http://localhost:2000 in your default browser.
 
 
 
