@@ -44,19 +44,13 @@
 
 * Express.js
 
-1.Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. 
-2.A myriad of HTTP utility methods and middleware at your disposal, creating a robust API is quick and easy.
-3.Express provides a thin layer of fundamental web application features, without obscuring Node.js features.
+*Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. 
+*A myriad of HTTP utility methods and middleware at your disposal, creating a robust API is quick and easy.
+*Express provides a thin layer of fundamental web application features, without obscuring Node.js features.
 
+*Node.js
 
-
-2. Node.js :
-
-Node.js is an open-source and cross-platform JavaScript runtime environment.
-
-A Node.js app is run in a single process, without creating a new thread for every request.
-
-Node.js provides a set of asynchronous I/O primitives in its standard library that prevent JavaScript code from blocking.
+* It's an open-source and cross-platform JavaScript runtime environment. App is run in a single process, without creating a new thread for every request and      provides a set of asynchronous I/O primitives in its standard library that prevent JavaScript code from blocking.
 
 
 ## Video
