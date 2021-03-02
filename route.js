@@ -38,6 +38,7 @@ module.exports = (app) => {
       newNote.id = uuidv4();
       notes.push(newNote);
       updateDB();
+      res.json(newNote)
       return console.log("added new note: " + newNote.title);
     });
     //retrieve a note with specific id
